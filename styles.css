@@ -1,0 +1,77 @@
+*{
+box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+:root {
+    --background-color:#FFF2DF;
+}
+
+body{
+    background-color: var(--background-color);
+  
+}
+main{
+    padding-left:100px;
+    padding-right:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    margin-top:90px;
+    
+}
+.icon{
+    width:30px;
+    height:30px;
+}
+header{
+   display:flex; 
+   border:1px solid #666;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 100px;
+   padding:20px 30px;
+   max-width: 1200px;
+   margin:30px auto;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+}
+.cart{
+    display:flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.perfume1{
+    width:200px;
+}
+.perfume{
+    display:flex;
+    flex-direction: column;
+    gap:120px;
+}
+.red-perfume{
+    width:380px;
+}
+.center-perfume{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+    border:0.5px solid #ccc;
+    padding:70px;
+    padding-top:100px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+h2{
+    font-size: 40px;
+   font-weight: 200;
+} 
+p{
+    text-align: center;
+}
